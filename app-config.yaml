@@ -1,0 +1,8 @@
+integrations:
+  github:
+    - host: github.com
+      token: ${GITHUB_TOKEN}
+    - host: ghe.example.net
+      apiBaseUrl: https://ghe.example.net/api/v3
+      rawBaseUrl: https://ghe.example.net/raw
+      token: ${GHE_TOKEN}
