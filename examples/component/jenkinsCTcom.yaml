@@ -13,9 +13,9 @@ metadata:
 spec:
   type: service
   lifecycle: experimental
-  owner: team-a
+  owner: bhatts
   providesApis:
     - cttest
   consumesApis:
-    - wayback-archive
+    - cttest
   
