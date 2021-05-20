@@ -8,13 +8,4 @@ metadata:
 spec:
   type: service
   lifecycle: experimental
-  owner: bhatts
-  definition: |
-    info:
-      version: 1.0.0
-      title: CT JP test
-      license:
-        name: MIT
-    servers:
-      - url: https://jenkins-pipeline-api-dev.cicd.rnd.amadeus.net:8443
-      
+  owner: bhatts  
