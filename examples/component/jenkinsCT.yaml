@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: jenkinsCt
-  description: jenkins Ct1 component
+  description: jenkins Ctcomponent
   tags:
     - java
     - data
