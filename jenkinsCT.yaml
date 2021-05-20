@@ -4,14 +4,12 @@ metadata:
   name: jenkinsCT
   description: Jenkins CT component
   tags:
-    - store
     - rest
 spec:
-  type: openapi
+  type: service
   lifecycle: experimental
   owner: bhatts
   definition: |
-    openapi: "3.0.0"
     info:
       version: 1.0.0
       title: CT JP test
