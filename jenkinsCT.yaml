@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: jenkinsCT
+  description: Jenkins CT component
+  tags:
+    - store
+    - rest
+spec:
+  type: openapi
+  lifecycle: experimental
+  owner: bhatts
+  definition: |
+    openapi: "3.0.0"
+    info:
+      version: 1.0.0
+      title: CT JP test
+      license:
+        name: MIT
+    servers:
+      - url: https://jenkins-pipeline-api-dev.cicd.rnd.amadeus.net:8443
+      
