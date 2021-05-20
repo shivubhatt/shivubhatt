@@ -5,7 +5,12 @@ metadata:
   description: Jenkins CT component
   tags:
     - rest
+  links:
+   - url: https://example.com/user
+     title: Examples Users
+     icon: user
 spec:
   type: service
   lifecycle: experimental
-  owner: bhatts  
+  owner: bhatts
+  
