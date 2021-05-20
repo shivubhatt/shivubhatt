@@ -13,9 +13,8 @@ metadata:
 spec:
   type: service
   lifecycle: experimental
-  owner: bhatts
+  owner: bhatt1
   providesApis:
     - cttest
   consumesApis:
     - cttest
-  
