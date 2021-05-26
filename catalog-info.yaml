@@ -2,17 +2,23 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: backstageCT
-  description: We try to implement CT features in BS
+  description: |
+    Backstage ,We try to implement CT features in BS.
   links:
     - title: Website
       url: https://controltower-dev.cicd.rnd.amadeus.net/
     - title: Documentation
-      url: https://rndwww.nce.amadeus.net/confluence/pages/viewpage.action?pageId=543667378
+      url: https://backstage.io/docs
+    - title: Storybook
+      url: https://backstage.io/storybook
+    - title: Discord Chat
+      url: https://discord.com/invite/EBHEGzX
   annotations:
-    github.com/project-slug: 1A-git/projects/SACM
-    lighthouse.com/website-url: https://controltower-dev.cicd.rnd.amadeus.net/
+    github.com/project-slug: backstage/backstage
+    backstage.io/techdocs-ref: url:https://github.com/backstage/backstage
+    lighthouse.com/website-url: https://backstage.io
 spec:
   type: service
   lifecycle: experimental
-  owner: bhatts
-  system: iz-system
+  owner: team-a
+  system: ct-catalog
