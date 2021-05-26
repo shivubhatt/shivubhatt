@@ -7,7 +7,7 @@ metadata:
     - title: Website
       url: https://controltower-dev.cicd.rnd.amadeus.net/
     - title: Documentation
-       url: https://rndwww.nce.amadeus.net/confluence/pages/viewpage.action?pageId=543667378
+      url: https://rndwww.nce.amadeus.net/confluence/pages/viewpage.action?pageId=543667378
   annotations:
     github.com/project-slug: 1A-git/projects/SACM
     lighthouse.com/website-url: https://controltower-dev.cicd.rnd.amadeus.net/
