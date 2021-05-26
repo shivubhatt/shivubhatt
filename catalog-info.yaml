@@ -20,5 +20,5 @@ metadata:
 spec:
   type: service
   lifecycle: experimental
-  owner: team-a
-  system: ct-catalog
+  owner: team-CT
+  system: iz-system
