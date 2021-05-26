@@ -2,8 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: backstageCT
-  description: |
-    We try to implement CT features in BS
+  description: We try to implement CT features in BS
   links:
     - title: Website
       url: https://controltower-dev.cicd.rnd.amadeus.net/
