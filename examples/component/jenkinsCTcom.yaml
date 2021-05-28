@@ -18,4 +18,4 @@ spec:
     - cttest
   consumesApis:
     - cttest
-  system: jpctuser
+  system: iz-system
